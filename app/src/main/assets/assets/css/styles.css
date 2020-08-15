@@ -1,0 +1,51 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+.row {
+  display: flex;
+}
+
+.sep {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sepText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+.sepText::before, .sepText::after {
+  content: '';
+  flex: 1;
+  width: 1px;
+  background: currentColor;
+  margin: .25em;
+}
+
+.box-content {
+  display: inline-block;
+  width: 200px;
+  padding: 10px;
+}
+
+.bottom {
+  border-bottom: 1px solid #ccc;
+}
+
+.right {
+  border-right: 1px solid #ccc;
+}
+
+

@@ -1,0 +1,23 @@
+.btn-sq-lg {
+  width: 150px ;
+  height: 150px ;
+}
+
+.btn-sq {
+  width: 100px ;
+  height: 100px ;
+  font-size: 10px;
+}
+
+.btn-sq-sm {
+  width: 50px ;
+  height: 50px ;
+  font-size: 10px;
+}
+
+.btn-sq-xs {
+  width: 25px ;
+  height: 25px ;
+  padding:2px;
+}
+
